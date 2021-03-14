@@ -22,9 +22,9 @@ const Activate = () => {
         setMessage(results.data.message)
     }
 
-    //useEffect( () => {
-    //    fetchData()
-    //}, [] )
+    useEffect( () => {
+        //write your code here
+    }, [] )
 
     return (
         <div className="activate" style={Style}>

@@ -21,6 +21,10 @@ const Deactivate = () => {
         setMessage(results.data.message)
     }
 
+    useEffect( () => {
+        //write your code here
+    }, [] )
+
     return (
         <div className="deactivate" style={Style}>
             <Form>
